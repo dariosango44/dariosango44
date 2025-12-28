@@ -1,0 +1,71 @@
+/* 1. Importamos una fuente moderna (Google Fonts) */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap");
+
+/* 2. Estilos generales */
+body {
+  font-family: "Roboto", sans-serif; /* Fuente para el texto */
+  background-color: #f8f9fa; /* Un gris muy muy claro, mejor que el blanco puro */
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+.navbar-brand {
+  font-family: "Montserrat", sans-serif; /* Fuente para títulos */
+  font-weight: 700;
+}
+
+/* 3. Estilo para la imagen de perfil */
+.profile-container {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.profile-img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white; /* Borde blanco para separar del fondo */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); /* Sombra suave para dar profundidad */
+  transition: transform 0.3s ease; /* Animación suave al pasar el ratón */
+}
+
+/* Efecto al pasar el ratón por encima de la foto */
+.profile-img:hover {
+  transform: scale(1.05); /* Se agranda un poquito */
+}
+
+/* 4. Texto de presentación */
+.intro-text {
+  margin-top: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro-text h1 {
+  color: #0d6efd; /* Azul Bootstrap (o cámbialo a tu color favorito) */
+}
+
+/* --- ESTILOS PARA LOS ICONOS SOCIALES --- */
+
+.social-icons {
+  display: flex; /* Los pone en fila */
+  justify-content: center; /* Los centra horizontalmente */
+  gap: 20px; /* Espacio entre cada icono */
+}
+
+.social-icons a {
+  color: #333; /* Color gris oscuro por defecto */
+  font-size: 2rem; /* Tamaño grande (aprox 32px) */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
+  transition: all 0.3s ease; /* Suaviza el cambio de color/movimiento */
+}
+
+/* Efecto al pasar el ratón (Hover) */
+.social-icons a:hover {
+  color: #0d6efd; /* Cambia a azul Bootstrap */
+  transform: translateY(-5px); /* El icono "salta" un poquito hacia arriba */
+}
