@@ -1,9 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="description" content="Bio-Dario Sánchez Gómez" />
+    <title>Dario Sánchez Gómez - Bio</title>
+
+    <!-- Enlace a tu CSS propio -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- FontAwesome (Librería de iconos) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
-  <body></body>
+
+  <!-- CAMBIO 1: Añadimos clases al BODY para que el footer se pegue abajo -->
+  <body class="d-flex flex-column min-vh-100">
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Dario Sánchez Gómez</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="bio.html">Bio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="research.html">Investigación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-primary text-white ms-2 px-3"
+                href="/mi-portfolio/DarioSanchezCV_EN.pdf"
+                target="_blank"
+                >CV</a
+              >
+            </li>
+            <!-- Selector de Idioma -->
+            <li class="nav-item dropdown ms-3">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <!-- Corregido: Había doble cierre de etiqueta </i> -->
+                <img
+                  style="height: 20px; vertical-align: middle"
+                  src="/mi-portfolio/spain.png"
+                  alt="ES"
+                />
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li>
+                  <a class="dropdown-item" href="/mi-portfolio/en/index.html"
+                    >Inglés</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/mi-portfolio/fr/index.html"
+                    >Francés</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/mi-portfolio/cat/index.html"
+                    >Valencià (cat)</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- CAMBIO 2: Añadimos 'flex-grow-1' para que este bloque ocupe todo el espacio disponible -->
+    <main class="container flex-grow-1"></main>
+
+    <!-- CAMBIO 3: EL FOOTER MEJORADO (Dentro del body) -->
+    <!-- bg-dark: fondo oscuro | text-white: texto blanco | py-4: padding vertical | mt-auto: empuja hacia abajo si hay espacio -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+      <div class="container">
+        <p class="mb-0">
+          &copy; 2025 <strong>Dario Sánchez Gómez</strong>. All rights reserved.
+        </p>
+        <!-- Opcional: Iconos pequeños en el footer también -->
+        <small class="text-white-50">Built with Bootstrap & Caffeine</small>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS (Dentro del body, al final) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

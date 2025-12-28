@@ -69,3 +69,8 @@ h3,
   color: #0d6efd; /* Cambia a azul Bootstrap */
   transform: translateY(-5px); /* El icono "salta" un poquito hacia arriba */
 }
+
+.bio-container {
+  margin-top: 3rem;
+  text-align: left;
+}

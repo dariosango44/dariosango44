@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Dario Sánchez Gómez is a student of Computer Sciences and Mathematics."
+      content="Dario Sánchez Gómez est un étudiant en Informatique et Mathématiques."
     />
     <title>Dario Sánchez Gómez - Portfolio</title>
 
-    <!-- Enlace a tu CSS propio -->
-    <link rel="stylesheet" href="/mi-portfolio/style.css" />
+    <!-- RUTA RELATIVA: Salimos una carpeta atrás (../) -->
+    <link rel="stylesheet" href="../style.css" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -19,14 +19,16 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <!-- FontAwesome (Librería de iconos) -->
+    <!-- FontAwesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
   </head>
-  <body>
-    <!-- MENÚ DE NAVEGACIÓN (Navbar Bootstrap) -->
+
+  <!-- CLASES PARA STICKY FOOTER -->
+  <body class="d-flex flex-column min-vh-100">
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="index.html">Dario SG</a>
@@ -43,27 +45,31 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
-            <!-- ms-auto mueve los items a la derecha -->
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="main.html"
-                >Home</a
+              <!-- En francés "Home" suele ser "Accueil" -->
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Accueil</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="research.html">Research</a>
+              <a class="nav-link" href="bio.html">Bio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="projects.html">Projects</a>
+              <a class="nav-link" href="research.html">Recherche</a>
             </li>
             <li class="nav-item">
-              <!-- Asumiendo que tendrás un PDF -->
+              <a class="nav-link" href="projects.html">Projets</a>
+            </li>
+            <li class="nav-item">
+              <!-- Ruta relativa al PDF -->
               <a
                 class="nav-link btn btn-primary text-white ms-2 px-3"
-                href="cv.pdf"
+                href="../cv.pdf"
                 target="_blank"
                 >CV</a
               >
             </li>
+
             <!-- Selector de Idioma -->
             <li class="nav-item dropdown ms-3">
               <a
@@ -73,26 +79,26 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <i class="fa-solid fa-globe"></i>
-                <span id="current-lang">ES</span>
+                <!-- Bandera de Francia (ajusta ruta si es necesario) -->
+                <img
+                  style="height: 20px; vertical-align: middle"
+                  src="fr.png"
+                  alt="FR"
+                />
               </a>
               <ul class="dropdown-menu dropdown-menu-end">
-                <!-- Español (Página actual) -->
-                <li><a class="dropdown-item" href="/index.html">Español</a></li>
-
-                <!-- Inglés -->
+                <!-- Rutas relativas -->
                 <li>
-                  <a class="dropdown-item" href="/en/index.html">English</a>
+                  <a class="dropdown-item" href="../index.html">Espagnol</a>
                 </li>
-
-                <!-- Francés -->
                 <li>
-                  <a class="dropdown-item" href="/fr/index.html">Français</a>
+                  <a class="dropdown-item" href="../en/index.html">Anglais</a>
                 </li>
-
-                <!-- Catalán -->
                 <li>
-                  <a class="dropdown-item" href="/ca/index.html">Català</a>
+                  <a class="dropdown-item active" href="#">Français</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="../ca/index.html">Catalan</a>
                 </li>
               </ul>
             </li>
@@ -101,26 +107,26 @@
       </div>
     </nav>
 
-    <!-- CONTENIDO PRINCIPAL -->
-    <main class="container">
+    <!-- CONTENIDO PRINCIPAL (flex-grow-1) -->
+    <main class="container flex-grow-1">
       <div class="profile-container">
-        <!-- Tu imagen con la clase nueva -->
+        <!-- Imagen subiendo un nivel -->
         <img
-          src="/mi-portfolio/IMG_0031.JPG"
-          alt="Foto de Dario Sánchez"
+          src="../IMG_0031.JPG"
+          alt="Photo de Dario Sánchez"
           class="profile-img"
         />
 
         <div class="intro-text">
-          <h1>Hola, soy Darío</h1>
-          <h3 class="text-muted">Computer Science & Mathematics Student</h3>
+          <h1>Bonjour, je suis Dario</h1>
+          <h3 class="text-muted">Étudiant en Mathématiques et Informatique</h3>
           <p class="mt-4">
-            Bienvenido a mi portfolio personal. Aquí encontrarás algunas cosas
-            sobre mí. Me gusta resolver problemas, sacar punta a los lápices y
-            subir cuestas empinadas.
+            Bienvenue sur mon site personnel. Vous trouverez ici quelques
+            informations à mon sujet. J'aime résoudre des problèmes, dénoncer
+            les injustices et gravir des pentes raides.
           </p>
 
-          <h3 class="text-info">Contacta conmigo</h3>
+          <h3 class="text-info">Contactez-moi</h3>
           <div class="social-icons mt-4">
             <!-- Email -->
             <a href="mailto:dariosango44@gmail.com" aria-label="Email">
@@ -142,8 +148,10 @@
               target="_blank"
               aria-label="GitHub"
             >
-              <i class="fa-brands fa-github"></i> </a
-            ><!-- Twitter / X -->
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <!-- Twitter / X -->
             <a
               href="https://twitter.com/dariosanxe"
               target="_blank"
@@ -155,6 +163,16 @@
         </div>
       </div>
     </main>
+
+    <!-- FOOTER EN FRANCÉS -->
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+      <div class="container">
+        <p class="mb-0">
+          &copy; 2025 <strong>Dario Sánchez Gómez</strong>. Tous droits
+          réservés.
+        </p>
+      </div>
+    </footer>
 
     <!-- Bootstrap JS Script -->
     <script
