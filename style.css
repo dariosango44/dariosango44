@@ -74,3 +74,12 @@ h3,
   margin-top: 3rem;
   text-align: left;
 }
+
+.bio-img {
+  /* Quitamos el height fijo para que Bootstrap controle el tamaño */
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  /* Opcional: si quieres limitar que no sea gigante en pantallas grandes */
+  max-height: 600px;
+  width: auto; /* Mantiene la proporción */
+}
