@@ -83,3 +83,11 @@ h3,
   max-height: 600px;
   width: auto; /* Mantiene la proporción */
 }
+
+/* Pequeño ajuste para que las secciones no visibles no ocupen espacio */
+.content-section {
+  display: none;
+}
+.content-section.active {
+  display: block;
+}
