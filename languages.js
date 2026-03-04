@@ -16,18 +16,18 @@ const translations = {
     bio_subtitulo:
       "Hola, soy Dario, tengo 24 años y vivo entre Segovia y Mallorca.",
     bio_p1:
-      "Desde muy pequeño, he sido competitivo—con mis amigos, mis hermanos, mis enemigos... pero sobre todo, conmigo mismo. Creo que por eso, tras muchos altibajos, pedí una <strong>ensalada de matemáticas</strong> para cenar, aderezada con tiras de <strong>ingeniería</strong> y una vinagreta de <strong>informática</strong>. Supongo que en su momento fue una forma de desafiarme a mí mismo.",
+      "Desde bien pequeño he sido competitivo, con mis amigos, mis hermanos, mis enemigos... pero sobre todo, conmigo mismo. Creo que por eso, tras muchos altibajos, pedí una <strong>ensalada de matemáticas</strong> para cenar, aderezada con tiras de <strong>ingeniería</strong> y una vinagreta de <strong>informática</strong>. Supongo que en su momento fue una forma de desafiarme a mí mismo.",
     bio_p1_cont:
-      "Las matemáticas siempre me habían costado digerir, pero cuando las comí, sentí esa sensación que se tiene cuando te haces daño haciendo algo que te gusta. El caso es que decidí seguir comiendo, y finalmente—muy finalmente—parece que estoy consiguiendo terminar un plato que, a pesar de ser una ensalada, pesa como un <i>yogur de morcilla</i>.",
+      "Las matemáticas siempre me ha costado digerirlas, y lo que pasa que cuando las degluto es que tengo esa sensación que se tiene cuando te haces daño haciendo algo que te gusta. Al principio me llené por los ojos, y estuve a punto de levantarme e irme. Sin embargo, por competitividad o por vago para no tener que levantarme de la mesa, no lo sé ni yo, decidí seguir comiendo, y finalmente —muy muy muy finalmente— parece que estoy consiguiendo acabarme un plato que, a pesar de ser una ensalada, resultado pesado como un <i>yogur de morcilla</i>.",
     bio_p2:
       "Desde el púlpito que proporciona el conocimiento adquirido durante mis años universitarios, puedo asegurar que ser exigente con uno mismo es el ingrediente principal para conseguir los objetivos que uno se propone. Como canta la banda <i>Oques Grases</i>:",
     bio_quote:
       "potser que ho donguis tot, i no ho aconsegueixis<br>et quedis sense forces<br>i tot i així segueixis.",
     bio_p2_cont:
-      "Para mí, el camino está claro: caer, levantarse, tropezar, enderezarse, llorar, sonreír... y repetir hasta conseguirlo. Decirlo es fácil; claramente, no todo el mundo puede hacerlo. Dependiendo de quién juzgue, puede que haya conseguido o no. Para mí, creo que he conseguido dar en la tecla—quizás con algunos rasguños en la voz—pero al fin y al cabo, la canté, que es lo que cuenta.",
+      "Para mí, el camino está claro: caer, levantarse, tropezar, enderezarse, llorar, sonreír... y repetir hasta conseguirlo. Decirlo es fácil; no obstante, no todo el mundo puede. Dependiendo de quién me juzgue, se puede debatir que yo haya conseguido, o no, ser informatemático, infomatao', como me gusta decir. Humildemente, creo que he conseguido dar el <i>do</i> de pecho, con algún gallo que otro, pero al final lo he entonado, que es lo que se pide.",
     bio_p3:
       "Quiero que este portfolio sirva como agradecimiento a todas las personas que han aportado algo durante mis años de formación, desde Esteban en Cantimpalos, <i>hasta Casacuberta en Barcelona</i>. Creo que son dos claros ejemplos de lo que los profesores pueden conseguir en las mentes jóvenes.",
-    bio_gracias: "Gracias a todos, esto va por vosotros.",
+    bio_gracias: "Gracias a tod@s, esto va por vosotr@s.",
     bio_firma: "Dario",
 
     //Secciones de proyectos e investigación se pueden añadir aquí en un futuro
@@ -58,9 +58,9 @@ const translations = {
     bio_subtitulo:
       "Hi, I'm Dario, I'm 24 years old and I live between Segovia and Mallorca.",
     bio_p1:
-      "Even when I was very young, I was competitive—with my friends, my siblings, my enemies... but above all, with myself. I think that's why, after many ups and downs, I ordered a <strong>mathematics salad</strong> for dinner, dressed with strips of <strong>engineering</strong> and a vinaigrette of <strong>computer science</strong>. I suppose at the time it was a way of challenging myself.",
+      "Even when I was very young, I was competitive, with my friends, my siblings, my enemies... but above all, with myself. I think that's why, after many ups and downs, I ordered a <strong>mathematics salad</strong> for dinner, dressed with strips of <strong>engineering</strong> and a vinaigrette of <strong>computer science</strong>. I suppose at the time it was a way of challenging myself.",
     bio_p1_cont:
-      "Math had always been hard to swallow, but when I ate it, I felt that sensation you get when you hurt yourself doing something you love. The fact is, I decided to keep eating, and finally—very finally—it seems I'm managing to finish a dish that, despite being a salad, is as heavy as a <i>black pudding yogurt</i>.",
+      "Math had always been hard to swallow, but when I ate it, I felt that sensation you get when you hurt yourself doing something you love. The fact is, I decide to keep eating, and finally —very very veryfinally— it seems I'm managing to finish a dish that, despite being a salad, is as heavy as a <i>sausages yogurt</i>.",
     bio_p2:
       "From the pulpit provided by the knowledge acquired during my university years, I can assure you that being demanding with oneself is the main ingredient to achieving one's goals. As the band <i>Oques Grases</i> sings:",
     bio_quote:
@@ -100,9 +100,9 @@ const translations = {
     bio_subtitulo:
       "Hola, sóc en Darío, tinc 24 anys i visc entre Segòvia i Mallorca.",
     bio_p1:
-      "Des de ben menut, he sigut competitiu—amb els meus amics, els meus germans, els meus enemics... però sobretot, amb jo mateix. Crec que per això, després de molts alts i baixos, vaig demanar una <strong>amanida de matemàtiques</strong> per sopar, aderezada amb tires d'<strong>enginyeria</strong> i una vinagreta d'<strong>informàtica</strong>. Supose que en el seu moment va ser una forma de desafiar-me a mi mateix.",
+      "Des de ben menut, he sigut competitiu, amb els meus amics, els meus germans, els meus enemics... però sobretot, amb jo mateix. Crec que per això, després de molts alts i baixos, vaig demanar una <strong>amanida de matemàtiques</strong> per sopar, aderezada amb tires d'<strong>enginyeria</strong> i una vinagreta d'<strong>informàtica</strong>. Supose que en el seu moment va ser una forma de desafiar-me a mi mateix.",
     bio_p1_cont:
-      "Les mates sempre se m'havien ennuegat, però quan les menjava tenia aquella sensació que un té quan et fas mal amb alguna cosa que t'agrada. El cas és que vaig decidir continuar menjant, i, al final, molt al final, sembla que m'estic aconseguint acabar el plat que, tot i ser una amanida, és pesat com un <i>iogurt de botifarra</i>.</i>.",
+      "Les mates sempre se m'havien ennuegat, però quan les menjava tenia aquella sensació que un té quan et fas mal amb alguna cosa que t'agrada. El cas és que vaig decidir continuar menjant, i, al final, molt al final, sembla que m'estic aconseguint acabar el plat que, tot i ser una amanida, és pesat com un <i>iogurt de botifarró</i>.</i>.",
     bio_p2:
       "Des del púlpit proporcionat pel coneixement adquirit durant els anys universitaris, puc assegurar que ser exigent amb un mateix és l'ingredient principal per aconseguir els objectius. Com diu la banda <i>Oques Grases</i>:",
     bio_quote:
