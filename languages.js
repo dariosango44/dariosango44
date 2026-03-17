@@ -88,7 +88,7 @@ const translations = {
     nav_bio: "Bio",
     nav_investigacion: "Recerca",
     nav_proyectos: "Projectes",
-    hola: "Hola, sóc en Darío",
+    hola: "Hola, sóc en Dario",
     subtitulo: "Estudiant d'Enginyeria Informàtica i Matemàtiques",
     descripcion:
       "Benvingut al meu portfolio personal. Ací trobaràs algunes coses sobre mi i les meves ambicions. M'agrada resoldre problemes, escoltar Manel i pujar costes empinades.",
@@ -98,7 +98,7 @@ const translations = {
     // CONTENIDO DE LA BIO
     bio_titulo: "Sobre mi",
     bio_subtitulo:
-      "Hola, sóc en Darío, tinc 24 anys i visc entre Segòvia i Mallorca.",
+      "Hola, sóc en Dario, tinc 24 anys i visc entre Segòvia i Mallorca.",
     bio_p1:
       "Des de ben menut, he sigut competitiu, amb els meus amics, els meus germans, els meus enemics... però sobretot, amb jo mateix. Crec que per això, després de molts alts i baixos, vaig demanar una <strong>amanida de matemàtiques</strong> per sopar, aderezada amb tires d'<strong>enginyeria</strong> i una vinagreta d'<strong>informàtica</strong>. Supose que en el seu moment va ser una forma de desafiar-me a mi mateix.",
     bio_p1_cont:

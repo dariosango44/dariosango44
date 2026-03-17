@@ -15,6 +15,10 @@ h3,
   font-family: "Montserrat", sans-serif; /* Fuente para títulos */
   font-weight: 700;
 }
+#navbar_sticky {
+  position: sticky;
+  top: 0;
+}
 
 /* 3. Estilo para la imagen de perfil */
 .profile-container {

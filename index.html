@@ -1,3 +1,8 @@
+<!-- Recuerdo cómo hay que hacer para enviar los cambios al repositorio:
+  $git status -> veo que tengo por cambiar
+  $git add .
+  $git commit -m "Lo que sigui"
+  $git push -->
 <!doctype html>
 <html lang="es">
   <head>
@@ -7,7 +12,7 @@
       name="description"
       content="Dario Sánchez Gómez is a student of Computer Sciences and Mathematics."
     />
-    <title>Dario Sánchez Gómez - Portfolio</title>
+    <title>dariosango44</title>
     <link rel="icon" type="image/x-icon" href="flags/cas.png">
 
     <link rel="stylesheet" href="style.css" />
@@ -23,7 +28,7 @@
 
   <body class="d-flex flex-column min-vh-100">
     <!-- MENÚ DE NAVEGACIÓN -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar_sticky">
       <div class="container">
         <a class="navbar-brand" href="#" onclick="showSection('inicio')"
           >Dario Sánchez Gómez</a
@@ -243,7 +248,7 @@
               >. <a data-key="project_title_1"></a>.
 
               <a
-                href="../tfg_matematicas.pdf"
+                href="tfg_matematicas.pdf"
                 target="_blank"
                 class="ms-2 text-dark"
               >
