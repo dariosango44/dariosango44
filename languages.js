@@ -140,7 +140,7 @@ const translations = {
     subtitulo: "Étudiant en Informatique et Mathématiques",
     descripcion:
       "Bienvenue sur mon portfolio personnel. Ici, vous trouverez quelques informations sur moi. J'aime résoudre des problèmes, dénoncer les injustices et gravir des pentes raides.",
-    contacto: "Contacta conmigo",
+    contacto: "Contactez-moi",
     idioma: "Français",
 
     // CONTENIDO DE LA BIO
