@@ -13,8 +13,7 @@ const translations = {
 
     // CONTENIDO DE LA BIO
     bio_titulo: "Sobre mí",
-    bio_subtitulo:
-      "Hola, soy Dario, tengo 24 años y vivo entre Segovia y Mallorca.",
+    bio_subtitulo: "Hola, soy Dario, tengo 24 años y soy segoviano.",
     bio_p1:
       "Desde bien pequeño he sido competitivo, con mis amigos, mis hermanos, mis enemigos... pero sobre todo, conmigo mismo. Creo que por eso, tras muchos altibajos, pedí una <strong>ensalada de matemáticas</strong> para cenar, aderezada con tiras de <strong>ingeniería</strong> y una vinagreta de <strong>informática</strong>. Supongo que en su momento fue una forma de desafiarme a mí mismo.",
     bio_p1_cont:
@@ -33,12 +32,16 @@ const translations = {
     //Secciones de proyectos e investigación se pueden añadir aquí en un futuro
     project_title_1:
       "Trabajo de Fin de Grado en Matemáticas, Universidad de Valladolid",
+    project_title_2:
+      "Trabajo de Fin de Grado en Ingeniería Informática de Servicios y Aplicaciones, Universidad de Valladolid",
 
     // CV acceso al currículum
-    cv_description:
-      "Puedes encontrar dos versiones de mi CV: una en estilo <a><i>markdown</i></a> (coming soon), y otra en formato <a><i>pdf</i></a>.",
-    cv_descargar: "Descargar CV",
-    cv_version_pdf: "Versión PDF",
+
+    cv_download_pdf: "Descargar versión PDF",
+    cv_education: "Educación",
+    cv_experience: "Experiencia Laboral",
+    cv_skills: "Habilidades",
+    cv_languages: "Idiomas",
   },
 
   en: {
@@ -55,8 +58,7 @@ const translations = {
 
     // CONTENIDO DE LA BIO
     bio_titulo: "About Me",
-    bio_subtitulo:
-      "Hi, I'm Dario, I'm 24 years old and I live between Segovia and Mallorca.",
+    bio_subtitulo: "Hi, I'm Dario, I'm 24 years old and I'm from Segovia.",
     bio_p1:
       "Even when I was very young, I was competitive, with my friends, my siblings, my enemies... but above all, with myself. I think that's why, after many ups and downs, I ordered a <strong>mathematics salad</strong> for dinner, dressed with strips of <strong>engineering</strong> and a vinaigrette of <strong>computer science</strong>. I suppose at the time it was a way of challenging myself.",
     bio_p1_cont:
@@ -75,12 +77,15 @@ const translations = {
     //Projects and research sections can be added here in the future
     project_title_1:
       "Final Degree Project in Mathematics, University of Valladolid",
+    project_title_2:
+      "Final Degree Project in Computer Science, University of Valladolid",
 
     // CV acceso al currículum
-    cv_description:
-      "You can find two versions of my CV: one in <a><i>markdown</i></a> style (coming soon), and another in <a><i>pdf</i></a> format.",
-    cv_descargar: "Download CV",
-    cv_version_pdf: "PDF Version",
+    cv_download_pdf: "Download PDF Version",
+    cv_education: "Education",
+    cv_experience: "Work Experience",
+    cv_skills: "Skills",
+    cv_languages: "Languages",
   },
 
   cat: {
@@ -97,12 +102,11 @@ const translations = {
 
     // CONTENIDO DE LA BIO
     bio_titulo: "Sobre mi",
-    bio_subtitulo:
-      "Hola, sóc en Dario, tinc 24 anys i visc entre Segòvia i Mallorca.",
+    bio_subtitulo: "Hola, soc en Dario, tinc 24 anys i soc segovià.",
     bio_p1:
-      "Des de ben menut, he sigut competitiu, amb els meus amics, els meus germans, els meus enemics... però sobretot, amb jo mateix. Crec que per això, després de molts alts i baixos, vaig demanar una <strong>amanida de matemàtiques</strong> per sopar, aderezada amb tires d'<strong>enginyeria</strong> i una vinagreta d'<strong>informàtica</strong>. Supose que en el seu moment va ser una forma de desafiar-me a mi mateix.",
+      "Des de ben menut, he sigut competitiu, amb els meus amics, els meus germans, els meus enemics... però sobretot, amb jo mateix. Crec que per això, després de molts alts i baixos, vaig demanar una <strong>amanida de matemàtiques</strong> per sopar, amb tires d'<strong>enginyeria</strong> i una vinagreta d'<strong>informàtica</strong>. Supose que en el seu moment va ser una forma de desafiar-me a mi mateix.",
     bio_p1_cont:
-      "Les mates sempre se m'havien ennuegat, però quan les menjava tenia aquella sensació que un té quan et fas mal amb alguna cosa que t'agrada. El cas és que vaig decidir continuar menjant, i, al final, molt al final, sembla que m'estic aconseguint acabar el plat que, tot i ser una amanida, és pesat com un <i>iogurt de botifarró</i>.</i>.",
+      "Les mates sempre se m'havien ennuegat, però quan les menjava tenia aquella sensació que un té quan et fas mal amb alguna cosa que t'agrada. El cas és que vaig decidir continuar menjant, i, al final, molt al final, sembla que m'estic aconseguint acabar el plat que, tot i ser una amanida, és pesat com un <i>iogurt de botifarró</i>.</i>",
     bio_p2:
       "Des del púlpit proporcionat pel coneixement adquirit durant els anys universitaris, puc assegurar que ser exigent amb un mateix és l'ingredient principal per aconseguir els objectius. Com diu la banda <i>Oques Grases</i>:",
     bio_quote:
@@ -117,12 +121,15 @@ const translations = {
     //Secciones de proyectos e investigación se pueden añadir aquí en un futuro
     project_title_1:
       "Treball de Fi de Grau en Matemàtiques, Universitat de Valladolid",
+    project_title_2:
+      "Treball de Fi de Grau en Enginyeria Informàtica de Serveis i Aplicacions, Universitat de Valladolid",
 
     // CV acceso al currículum
-    cv_description:
-      "Pots trobar dues versions del meu CV: una en estil <a><i>markdown</i></a> (coming soon), i una altra en format <a><i>pdf</i></a>.",
-    cv_descargar: "Descarregar CV",
-    cv_version_pdf: "Versió PDF",
+    cv_download_pdf: "Descarregar versió PDF",
+    cv_education: "Educació",
+    cv_experience: "Experiència Laboral",
+    cv_skills: "Habilitats",
+    cv_languages: "Idiomes",
   },
   fr: {
     nav_inicio: "Accueil",
@@ -138,8 +145,7 @@ const translations = {
 
     // CONTENIDO DE LA BIO
     bio_titulo: "À propos de moi",
-    bio_subtitulo:
-      "Bonjour, je suis Dario, j'ai 24 ans et je vis entre Ségovie et Majorque.",
+    bio_subtitulo: "Bonjour, je suis Dario, j'ai 24 ans et j'habite a Ségovie.",
     bio_p1:
       "Depuis mon plus jeune âge, j'ai été compétitif—avec mes amis, mes frères, mes ennemis... mais surtout, avec moi-même. Je pense que c'est pourquoi, après de nombreux hauts et bas, j'ai commandé une <strong>salade de mathématiques</strong> pour le dîner, assaisonnée de lanières d'<strong>ingénierie</strong> et d'une vinaigrette d'<strong>informatique</strong>. Je suppose qu'à l'époque, c'était une façon de me défier moi-même.",
     bio_p1_cont:
@@ -158,12 +164,16 @@ const translations = {
     //Secciones de proyectos e investigación se pueden añadir aquí en un futuro
     project_title_1:
       "Travail de Fin d'Études en Mathématiques, Université de Valladolid",
+    project_title_2:
+      "Travail de Fin d'Études en Ingénierie Informatique de Services et Applications, Université de Valladolid",
 
     // CV acceso al currículum
-    cv_description:
-      "Vous pouvez trouver deux versions de mon CV: une en style <a><i>markdown</i></a> (coming soon), et une autre au format <a><i>pdf</i></a>.",
-    cv_descargar: "Télécharger CV",
-    cv_version_pdf: "Version PDF",
+
+    cv_download_pdf: "Télécharger la version PDF",
+    cv_education: "Formation",
+    cv_experience: "Expérience Professionnelle",
+    cv_skills: "Compétences",
+    cv_languages: "Langues",
   },
 
   eus: {
@@ -200,12 +210,15 @@ const translations = {
     //Secciones de proyectos e investigación se pueden añadir aquí en un futuro
     project_title_1:
       "Matematika Graduko Amaierako Lana, Valladolid Unibertsitatea",
+    project_title_2:
+      "Ingeniaritzako Graduko Amaierako Lana, Valladolid Unibertsitatea",
 
     // CV acceso al currículum
-    cv_description:
-      "Bi CV bertsio aurki ditzakezu: bat <a><i>markdown</i></a> estiloan (coming soon), eta bestea <a><i>pdf</i></a> formatuan",
-    cv_descargar: "Deskargatu CV",
-    cv_version_pdf: "Bertsioa PDF",
+    cv_download_pdf: "PDF bertsioa deskargatu",
+    cv_education: "Hezkuntza",
+    cv_experience: "Lan Esperientzia",
+    cv_skills: "Trebetasunak",
+    cv_languages: "Hizkuntzak",
   },
 
   de: {

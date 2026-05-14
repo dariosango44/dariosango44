@@ -13,7 +13,7 @@
       content="Dario Sánchez Gómez is a student of Computer Sciences and Mathematics."
     />
     <title>dariosango44</title>
-    <link rel="icon" type="image/x-icon" href="flags/cas.png">
+    <link rel="icon" type="image/x-icon" href="flags/cas.png" />
 
     <link rel="stylesheet" href="style.css" />
     <link
@@ -81,12 +81,7 @@
               >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                href="#"
-                onclick="showSection('CV')"
-                >CV</a
-              >
+              <a class="nav-link" href="#" onclick="showSection('CV')">CV</a>
             </li>
             <!-- Selector de Idioma: CAMBIO en los href para llamar a changeLanguage -->
             <li class="nav-item dropdown ms-3">
@@ -152,7 +147,7 @@
     </nav>
 
     <main class="container flex-grow-1 mt-5">
-      <!-- SECCIÓN 1: INICIO (La que tienes ahora) -->
+      <!-- SECCIÓN 1: INICIO -->
       <section id="inicio" class="content-section active">
         <div class="profile-container">
           <img
@@ -191,11 +186,11 @@
       <!-- SECCIÓN 2: BIO -->
       <section id="bio" class="content-section">
         <div class="bio-container text-center text-md-start">
-          <h1 data-key="bio_titulo">About Me</h1>
-          <h3 data-key="bio_subtitulo" class="mb-4">
+          <h2 data-key="bio_titulo">About Me</h2>
+          <h4 data-key="bio_subtitulo" class="mb-4">
             Hi, I'm Dario, I'm 24 years old and I live between Segovia and
             Mallorca.
-          </h3>
+          </h4>
 
           <div class="my-4">
             <img
@@ -217,7 +212,6 @@
             </blockquote>
 
             <p data-key="bio_p2_cont"></p>
-
             <p data-key="bio_p3"></p>
 
             <br />
@@ -239,7 +233,7 @@
       <section id="proyectos" class="content-section">
         <h2 data-key="nav_proyectos">Proyectos</h2>
         <div class="row" id="projects-grid">
-          <!-- Aquí irían tus proyectos -->
+          <!-- Aquí proyectos -->
           <ul class="list-unstyled mt-5">
             <li class="mb-4">
               <span style="font-variant: small-caps">Sánchez Gómez, D.</span>
@@ -255,39 +249,217 @@
                 <i class="fa-solid fa-file-pdf"></i>
               </a>
             </li>
+            <li class="mb-4">
+              <span style="font-variant: small-caps">Sánchez Gómez, D.</span>
+              (2026).
+              <em
+                >1AI-uda? Diseño y desarrollo de un herramienta integral de
+                análisis de mercado inmobiliario y asesoría legal basada en
+                IA</em
+              >. <a data-key="project_title_2"></a>.
+
+              <a
+                href="tfg_informatica.pdf"
+                target="_blank"
+                class="ms-2 text-dark"
+              >
+                <i class="fa-solid fa-file-pdf"></i>
+              </a>
+            </li>
           </ul>
         </div>
       </section>
       <!-- SECCIÓN 5: CV -->
+      <!-- SECCIÓN 5: CV -->
       <section id="CV" class="content-section">
-        <div class="CV-container text-center">
-          <h1 class="CV-title fw-bold display-3 mt-5 mb-4">CV</h1>
-          <h4 data-key="cv_description">
-            <a href="DarioSanchezCV_EN.pdf" target="_blank"></a>.
-          </h4>
-          <div class="row align-items-start mt-4">
-            <div class="col">
-              <h5 class="mb-3" data-key="cv_version_pdf">
-              </h5>
+        <div class="CV-container">
+          <h1 class="CV-title fw-bold display-3 mt-5 mb-4 text-center">CV</h1>
 
-              <!-- Contenedor responsive para el PDF -->
-              <!-- ratio-1x1 hace que sea cuadrado, ratio-4x3 rectangular vertical -->
-              <div class="ratio ratio-1x1 border rounded shadow-sm">
-                <iframe src="DarioSanchezCV_EN.pdf" title="CV PDF"></iframe>
-              </div>
-
-              <!-- Botón extra por si falla la carga -->
-              <div class="mt-3"><i class="fas fa-download"></i>
-                <a
-                  href="DarioSanchezCV_EN.pdf"
-                  class="btn btn-outline-dark w-100"
-                  download data-key="cv_version_pdf"
-                >
-                  
-                </a>
-              </div>
-            </div>  
+          <!-- Download Button -->
+          <div class="text-center mb-4">
+            <a
+              href="DarioSanchezCV_EN.pdf"
+              class="btn btn-outline-dark"
+              download
+            >
+              <i class="fas fa-download me-2"></i>
+              <span data-key="cv_download_pdf">Download PDF Version</span>
+            </a>
           </div>
+
+          <!-- CV Content in Markdown Style -->
+          <div class="cv-markdown-content p-4 bg-light rounded shadow-sm">
+            <!-- Education Section -->
+            <h2 class="border-bottom pb-2 mb-4">
+              🎓 <span data-key="cv_education">Education</span>
+            </h2>
+
+            <div class="mb-4">
+              <h5 class="fw-bold mb-1">
+                Doble grau en Matemàtiques i Informática
+              </h5>
+              <p class="text-muted mb-1">
+                <em>Beca SICUE, Universitat de Barcelona</em>
+              </p>
+              <p class="text-muted">2024–2025</p>
+            </div>
+
+            <div class="mb-4">
+              <h5 class="fw-bold mb-1">
+                PEC Ingeniería Informática y Matemáticas
+              </h5>
+              <p class="text-muted mb-1">
+                <em>Grado, Universidad de Valladolid</em>
+              </p>
+              <p class="text-muted">2020–2025</p>
+            </div>
+
+            <div class="mb-4">
+              <h5 class="fw-bold mb-1">Licence Math-Info</h5>
+              <p class="text-muted mb-1">
+                <em>Beca ERASMUS, Université Claude Bernard Lyon 1</em>
+              </p>
+            </div>
+
+            <div class="mb-4">
+              <h5 class="fw-bold mb-1">Enseñanzas Profesionales, Trompa</h5>
+              <p class="text-muted">
+                <em>Conservatorio Profesional de Música, Segovia</em>
+              </p>
+            </div>
+
+            <!-- Work Experience Section -->
+            <h2 class="border-bottom pb-2 mb-4 mt-5">
+              💼 <span data-key="cv_experience">Work Experience</span>
+            </h2>
+
+            <div class="mb-4">
+              <h5 class="fw-bold mb-1">Java Developer Internship</h5>
+              <p class="text-muted mb-1">
+                <em>Sopra Steria, Barcelona's metropolitan area</em>
+              </p>
+              <p class="text-muted">Jun. 2025 – Sep. 2025</p>
+            </div>
+
+            <div class="mb-4">
+              <h5 class="fw-bold mb-1">Math Teacher</h5>
+              <p class="text-muted mb-1">
+                <em>Private lessons, Barcelona's metropolitan area</em>
+              </p>
+              <p class="text-muted">2024 – Present</p>
+            </div>
+
+            <div class="mb-4">
+              <h5 class="fw-bold mb-1">Waiter</h5>
+              <p class="text-muted mb-1">
+                <em>Son Bunyola Hotel & Villas, Banyalbufar, Mallorca</em>
+              </p>
+              <p class="text-muted">Jul. 2023 – Sep. 2024</p>
+            </div>
+
+            <div class="mb-4">
+              <h5 class="fw-bold mb-1">Assistant Waiter</h5>
+              <p class="text-muted mb-1">
+                <em>Restaurante La Concepción, Segovia</em>
+              </p>
+              <p class="text-muted">Jul. 2022 – Sep. 2022</p>
+            </div>
+
+            <div class="mb-4">
+              <h5 class="fw-bold mb-1">Lifeguard</h5>
+              <p class="text-muted mb-1">
+                <em>Ayuntamiento de La Losa, Segovia</em>
+              </p>
+              <p class="text-muted">Jul. 2021 – Sep. 2021</p>
+            </div>
+
+            <div class="mb-4">
+              <h5 class="fw-bold mb-1">Shop Assistant</h5>
+              <p class="text-muted mb-1">
+                <em>Pastelería Limón y Menta, Segovia</em>
+              </p>
+              <p class="text-muted">Jul. 2020 – Sep. 2020</p>
+            </div>
+
+            <!-- Skills Section -->
+            <h2 class="border-bottom pb-2 mb-4 mt-5">
+              🛠️ <span data-key="cv_skills">Skills</span>
+            </h2>
+
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="list-unstyled">
+                  <li class="mb-2">
+                    <i class="fas fa-code me-2 text-secondary"></i>Programming
+                    (Java, Python, C, HTML)
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-chart-bar me-2 text-secondary"></i>Data
+                    Analysis
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-clock me-2 text-secondary"></i>Time
+                    Management
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-comments me-2 text-secondary"></i
+                    >Communication
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="list-unstyled">
+                  <li class="mb-2">
+                    <i class="fas fa-chalkboard-teacher me-2 text-secondary"></i
+                    >Pedagogy and Didactics
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-calculator me-2 text-secondary"></i>Applied
+                    Mathematics
+                  </li>
+                  <li class="mb-2">
+                    <i class="fas fa-concierge-bell me-2 text-secondary"></i
+                    >Hospitality
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Languages Section -->
+            <h2 class="border-bottom pb-2 mb-4 mt-5">
+              🌐 <span data-key="cv_languages">Languages</span>
+            </h2>
+
+            <div class="row">
+              <div class="col-md-8">
+                <table class="table table-borderless">
+                  <tbody>
+                    <tr>
+                      <td class="fw-bold">Spanish</td>
+                      <td>Native</td>
+                    </tr>
+                    <tr>
+                      <td class="fw-bold">English</td>
+                      <td>Intermediate to Advanced</td>
+                    </tr>
+                    <tr>
+                      <td class="fw-bold">French</td>
+                      <td>Advanced</td>
+                    </tr>
+                    <tr>
+                      <td class="fw-bold">Catalan</td>
+                      <td>Advanced</td>
+                    </tr>
+                    <tr>
+                      <td class="fw-bold">German</td>
+                      <td>Basic</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
